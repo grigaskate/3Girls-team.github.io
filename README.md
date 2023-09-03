@@ -3,16 +3,16 @@ Eat smart - it’s easy and tasty! :)
 
 This site was built using [GitHub Pages](https://3girls-team.github.io/)
 
-## Website Design
+### Website Design
 Design was developed using a [free Figma template](https://www.figma.com/file/NzUxmldLBgTid1UN0AiwJF/Agriculture-Webflow-Website-Template-(Community)?type=design&node-id=2-9967&mode=design&t=26za1y9YxPiBUaVe-0) 
 
-## Website Description
+### Website Description
 SmartDietTrack is a website for getting information about key nutrients in foods, calculating your daily calorie intake, and finding healthy, balanced recipes.
 The goal of the project was to create a functional, interactive website built on HTML, SASS, JavaScript, API.
 The website is used for educational purposes only and is not used for commercial purposes.
 It is a single page website with a modal box. 
 
-## Technologies & tools 
+### Technologies & tools 
 * Agile
 * JavaScript
 * HTML5
@@ -20,7 +20,7 @@ It is a single page website with a modal box.
 * GitHub
 * API: [Fitness Calculator](https://rapidapi.com/hub/), [Edamam](https://www.edamam.com/), [Quotes](https://type.fit/api/quotes). All APIs used at work are used solely for educational purposes and are not used for commercial purposes.
 
-## Website Structure
+### Website Structure
 1. Header with the links to the website sections and a sign-in form. JavaScript was used for developing a hamburger-menu. 
 2. Banner with the button to open a modal box with the main information about the website. Built with JS. 
 3. Sign-in form. Javascript was used for displaying a user name in the header section. 
@@ -36,6 +36,7 @@ It is a single page website with a modal box.
 [![Contributors](https://contrib.rocks/image?repo=3Girls-team/SmartDietTrack)](https://github.com/3Girls-team/SmartDietTrack/graphs/contributors)
 
 
+
 # SmartDietTrack
 Eat smart - it’s easy and tasty! :)
 
@@ -46,8 +47,8 @@ SmartDietTrack - это веб-сайт для получения информа
 Задачей проекта было создание функционального, интерактивного сайта с обязательным применением HTML, SASS, JavaScript, API. 
 Веб сайт используется исключительно в целях обучения и не используется в корпоративных целях.
 
-Дизайн сайта был разработан командой на основе макета  из фигмы. 
-Основа для макета - [дизайн в свободном доступе](https://www.figma.com/file/NzUxmldLBgTid1UN0AiwJF/Agriculture-Webflow-Website-Template-(Community)?type=design&node-id=2-9967&mode=design&t=26za1y9YxPiBUaVe-0) 
+Дизайн сайта был разработан командой на основе макета из Figma, находится
+[в свободном доступе](https://www.figma.com/file/NzUxmldLBgTid1UN0AiwJF/Agriculture-Webflow-Website-Template-(Community)?type=design&node-id=2-9967&mode=design&t=26za1y9YxPiBUaVe-0) 
 
 Сайт SPA, адаптирован под разные размеры экрана (телефон, планшет, компьютер).
 

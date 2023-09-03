@@ -1,7 +1,7 @@
 # SmartDietTrack
 Eat smart - it’s easy and tasty! :)
 
-/ https://3girls-team.github.io/SmartDietTrack/ /
+This site was built using [GitHub Pages](https://3girls-team.github.io/)
 
 ## Website Design
 Design was developed using a free Figma template https://www.figma.com/file/NzUxmldLBgTid1UN0AiwJF/Agriculture-Webflow-Website-Template-(Community)?type=design&node-id=2-9967&mode=design&t=26za1y9YxPiBUaVe-0
@@ -39,7 +39,7 @@ It is a single page website with a modal box.
 # SmartDietTrack
 Eat smart - it’s easy and tasty! :)
 
-/ https://3girls-team.github.io/SmartDietTrack/ /
+Сайт в свободном доступе на [GitHub Pages](https://3girls-team.github.io/)
 
 ### Описание
 SmartDietTrack - это веб-сайт для получения информации об основных питательных веществах продуктов, подсчета дневной нормы калорий, а также поиска полезных сбалансированных рецептов. 
@@ -59,14 +59,8 @@ SmartDietTrack - это веб-сайт для получения информа
 * GitHub
 * APIs (https://fitness-calculator.p.rapidapi.com, https://www.edamam.com/,   https://type.fit/api/quotes). Все API, применяемые в работе, используются исключительно в целях обучения и не используется в корпоративных целях.
 
-
 ### Проектная команда
-* Екатерина Сафиуллова (https://github.com/Safiullova)
-* Анжелика (https://github.com/AnzhelikaMullova) 
-* Анастасия Клиффорд (https://github.com/nastyaclifford)
-* Mарина Овчаренко (https://github.com/Mmaryna68)
-* Екатерина Григас (https://github.com/grigaskate)
-
+[![Contributors](https://contrib.rocks/image?repo=3Girls-team/SmartDietTrack)](https://github.com/3Girls-team/SmartDietTrack/graphs/contributors)
 
 ### Структура сайта
 1. Header со ссылками на разделы сайта и именем пользователя. При создании бургер-меню был использован JS. 

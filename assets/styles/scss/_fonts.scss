@@ -1,0 +1,71 @@
+@mixin title {
+font-family: 'Yellowtail';
+font-style: italic;
+font-weight: 400;
+font-size: 36px;
+line-height: 49px;
+color: $color-green;
+}
+
+@mixin heading-h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 82px;
+    color: $color-sgrey;
+}
+
+@mixin heading-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    color: $color-sgrey;
+}
+
+@mixin text-error {
+    font-family: "Yellowtail";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 49px;
+    color: $color-green;
+}
+
+@mixin heading-h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+    color: $color-sgrey;
+}
+
+@mixin text-p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: $color-dgrey;
+}
+
+@mixin text-list {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: $color-dgrey;
+    }
+
+@mixin text-button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: $color-sgrey;
+}

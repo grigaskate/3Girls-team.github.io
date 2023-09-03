@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartDietTrack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@300;400&family=Roboto:wght@300;400;700;900&family=Yellowtail&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles/css/normalize.css" />
+  <link rel="stylesheet" href="assets/styles/css/index.css" />
+</head>
+
+<body>
+  <div class="modal-window">
+    <div class="modal-window__fon">
+      <button class="modal-window__button">Home
+        <img alt="searchImg" src="assets/images/aerrow.png" class="imgSearch" />
+      </button>
+      <p class="modal-window__greeting">Welcome to SmartDietTrack</p>
+      <p class="modal-window__slogan">Eat smart - it’s easy and tasty!</p>
+      <p class="modal-window__description">SmartDietTrack - an innovative platform for nutrition tracking and
+        achieving
+        a healthy lifestyle! Discover your daily calorie, protein, fat, and carbohydrate needs, monitor your diet,
+        and
+        receive personalized nutritional recommendations. Our app offers a wide selection of healthy recipes to help
+        you
+        adjust weight and reach your fitness goals. Begin your journey to a better version of yourself with
+        SmartDietTrack!</p>
+    </div>
+  </div>
+  <header class="header">
+    <img class="header__logo" src="assets/images/header-logo.svg" alt="SmartDietTrack">
+    <div class="header__icon">
+      <span></span>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__list-item"><a href="#about-us">About us</a></li>
+        <li class="header__list-item"><a href="#nutrients">Nutrients</a></li>
+        <li class="header__list-item"><a href="#testimonial">Testimonial</a></li>
+        <li class="header__list-item"><a href="#calculator"> Calorie Calculator</a></li>
+        <li class="header__list-item"><a href="#recipes">Recipes</a></li>
+        <li class="header__list-item"><a href="#share-with-us">Share with us</a></li>
+        <li class="header__list-item"><a href="#form-news">News</a></li>
+      </ul>
+    </nav>
+    <p class="header__text"> Hi,friend!</p>
+  </header>
+  <main>
+    <section class="banner" id="about-us">
+      <p class="banner__text">Get Healthier and Happier with us Today!</p>
+      <h1 class="banner__title">Choose the best healthier way of life</h1>
+      <button class="banner__button">Explore Now
+        <img alt="searchImg" src="assets/images/aerrow.png" class="imgSearch" />
+      </button>
+    </section>
+    <div class="registration-form">
+      <img class="registration-form__img" src="assets/images/registrationPhoto.jpg" alt="imgRegistration">
+      <div class="registration-form__set">
+        <p class="registration-form__p">Please sign in to Calculate your Daily Calorie Needs and Get your
+          Personalized
+          Recipes</p>
+        <form class="registration-form__form">
+          <input class="registration-form__name" type="text" placeholder="Enter your name">
+          <input class="registration-form__password" type="password" placeholder="Enter Your Password">
+          <button class="registration-form__button" type="submit">Sign In
+            <img alt="searchImg" src="assets/images/aerrow.png" class="imgSearch" />
+          </button>
+        </form>
+      </div>
+    </div>
+    <section class="nutrients" id="nutrients">
+      <div class="nutrients__title">
+        <p class="nutrients__title-name">Nutrients</p>
+        <h2 class="nutrients__title-h">Learn information about nutrients of any products</h2>
+      </div>
+      <div class="nutrients__form">
+        <div class="nutrients__form-container">
+          <input type="text" class="nutrients__form-input" list="productsSelect"
+            placeholder="Enter a product (for example: apple)">
+          <datalist id="productsSelect">
+          </datalist>
+          <div class="nutrients__form-error"></div>
+          <button class="nutrients__form-button">Search
+            <img alt="searchImg" src="assets/images/aerrow.png" class="imgSearch" />
+          </button>
+        </div>
+      </div>
+      <div class="nutrients__card">
+        <div class="nutrients__card-picture"></div>
+        <p class="nutrients__card-title">Product, 100g</p>
+        <div class="nutrients__card-line"></div>
+        <div class="nutrients__card-lists">
+          <ul class="nutrients__card-list">
+            <li class="nutrients__card-list__item">calories</li>
+            <li class="nutrients__card-list__item">protein</li>
+            <li class="nutrients__card-list__item">total lipid</li>
+            <li class="nutrients__card-list__item">carbohydrates</li>
+            <li class="nutrients__card-list__item">fiber</li>
+          </ul>
+          <ul class="nutrients__card-list" id="nutrientsValue">
+            <li class="nutrients__card-list__item">0</li>
+            <li class="nutrients__card-list__item">0</li>
+            <li class="nutrients__card-list__item">0</li>
+            <li class="nutrients__card-list__item">0</li>
+            <li class="nutrients__card-list__item">0</li>
+          </ul>
+        </div>
+        <div id="edamam-badge" data-color="white" style="justify-content: end;"></div>
+      </div>
+    </section>
+    <section class="testimonial" id="testimonial">
+      <p class="testimonial__title">Testimonial</p>
+      <h2 class="testimonial__heading-h2">What Our Members Saying?</h2>
+      <div class="itc-slider" data-slider="itc-slider" data-loop="false" data-autoplay="false">
+        <div class="itc-slider-wrapper">
+          <div class="itc-slider-items">
+            <div class="itc-slider-item">
+              <div class="review">
+                <img src="assets/images/testimonial-avatar4.jpg" alt="avatar"
+                  class="testimonial__img_size testimonial__img" />
+                <div class="testimonial__raiting">
+                  <img src="assets/images/testimonial-5stars.svg" alt="raiting five stars" />
+                </div>
+                <p class="testimonial__text-p">
+                  Useful website, thanks. I use it when I don't know what to cook.
+                  Recipes are delicious and variety. It doesn't take much time to cook. It is very important when you
+                  work, study, have children.
+                </p>
+                <div class="testimonial__heading-h6">Sara Taylor</div>
+                <div class="testimonial__text-p">Consumer</div>
+              </div>
+            </div>
+            <div class="itc-slider-item">
+              <div class="review">
+                <img src="assets/images/testimonial-avatar2.jpg" alt="avatar"
+                  class="testimonial__img_size testimonial__img" />
+                <div class="testimonial__raiting">
+                  <img src="assets/images/testimonial-5stars.svg" alt="raiting five stars" />
+                </div>
+                <p class="testimonial__text-p">
+                  I have lost 3 kg. No diets, no fasting. This is very important for me, for my health. I will continue
+                  to use the website. Cooking is a pleasure. Thank you!
+                </p>
+                <div class="testimonial__heading-h6">Irma Bell</div>
+                <div class="testimonial__text-p">Consumer</div>
+              </div>
+            </div>
+            <div class="itc-slider-item">
+              <div class="review">
+                <img src="assets/images/testimonial-avatar3.jpg" alt="avatar"
+                  class="testimonial__img_size testimonial__img" />
+                <div class="testimonial__raiting">
+                  <img src="assets/images/testimonial-5stars.svg" alt="raiting five stars" />
+                </div>
+                <p class="testimonial__text-p">
+                  I take care of my health. This site is a godsend for me. Everything is very accessible and
+                  understandable. How many calories should I eat today. It's nice to have the recipes right away.
+                </p>
+                <div class="testimonial__heading-h6">Connie Lane</div>
+                <div class="testimonial__text-p">Consumer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="itc-slider-btn itc-slider-btn-prev"></button>
+        <button class="itc-slider-btn itc-slider-btn-next"></button>
+        <div>
+          <ol class="itc-slider-indicators">
+            <li class="itc-slider-indicator" data-slide-to="0"></li>
+            <li class="itc-slider-indicator" data-slide-to="1"></li>
+            <li class="itc-slider-indicator" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="calculator" id="calculator">
+      <div class="calculatorCalorie">
+        <div class="calculatorCalorie__text">
+          <p class="calculatorCalorie__text-title">Calorie Calculator</p>
+          <h2 class="calculatorCalorie__text-body">
+            Use the calorie calculator to estimate the number of daily calories your body needs to lose, gain or
+            maintain your current weight in just one click
+          </h2>
+        </div>
+        <form class="calculatorForm" id="calculatorForm">
+          <div class="calculatorForm__inputs">
+            <label for="age">Age (years):</label>
+            <input type="number" class="calculatorForm__inputs-age" id="age" required />
+            <br />
+            <label for="weight">Weight (kg):</label>
+            <input type="number" class="calculatorForm__inputs-weight" id="weight" required />
+            <br />
+            <label for="height">Height (cm):</label>
+            <input type="number" class="calculatorForm__inputs-height" id="height" required />
+            <br />
+            <div class="calculatorForm__inputs-gender">
+              <p class="lable_gender">Gender:</p>
+              <input type="radio" id="male" name="gender" value="male" required />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" required />
+              <label for="female">Female</label>
+              <br />
+            </div>
+          </div>
+          <div class="calculatorForm__options">
+            <div class="calculatorForm__options-goal">
+              <label for="goal">Your goal:</label>
+              <select id="goal" required>
+                <option selected disabled value=''>Please, choose</option>
+                <option value="maintain">Weight Maintenance</option>
+                <option value="mildlose">Mild weight loss</option>
+                <option value="weightlose">Weight loss</option>
+                <option value="extremelose">Extreme weight loss</option>
+                <option value="mildgain">Mild weight gain</option>
+                <option value="weightgain">Weight gain</option>
+                <option value="extremegain">Extreme weight gain</option>
+              </select>
+              <br />
+            </div>
+            <div class="calculatorForm__options-macronutrients">
+              <label for="macronutrients">Macro nutrients:</label>
+              <select id="macronutrients" required>
+                <option selected disabled value=''>Please, choose</option>
+                <option value="balanced">balanced</option>
+                <option value="lowfat">lowfat</option>
+                <option value="lowcarbs">lowcarbs</option>
+                <option value="highprotein">highprotein</option>
+              </select>
+              <br />
+            </div>
+            <div class="calculatorForm__options-activity">
+              <label for="activity">Activity Level:</label>
+              <select id="activity" required>
+                <option selected disabled value=''>Please, choose</option>
+                <option value="level_1">Sedentary: no exercise</option>
+                <option value="level_2">Sedentary: little exercise</option>
+                <option value="level_3">Exercise 1-3 times/week</option>
+                <option value="level_4">Exercise 3-4 times/week</option>
+                <option value="level_5">
+                  Daily exercise or intense exercise 4-5 times/week
+                </option>
+                <option value="level_6">Intense exercise 6-7 times/week</option>
+                <option value="level_7">
+                  Very intense exercise daily, or physical job
+                </option>
+              </select>
+              <br />
+            </div>
+            <button type="submit" class="calculatorForm__options-btn"><img src="assets/images/aerrow.png"
+                alt="submithImg" class="imgSubmit" />
+              Calculate
+            </button>
+          </div>
+        </form>
+        <div class="loading" id="loading" style="display: none">
+          <div class="calculatorCalorie__loader"></div>
+          <p>Loading...</p>
+        </div>
+        <div class="calculatorCalorie__result">
+          <div id="result"></div>
+          <div class="calculatorCalorie__error" id="error"></div>
+        </div>
+      </div>
+    </section>
+    <section class="recipes" id="recipes">
+      <div class="randomRecipe">
+        <div class="randomRecipe__text">
+          <p class="randomRecipe__text__title">Recipes</p>
+          <h2 class="randomRecipe__text__body">
+            Discover our wide selection of perfectly balanced and delicious
+            recipes
+          </h2>
+        </div>
+        <form class="randomRecipe__form">
+          <div class="form__inputs">
+            <select id="select-meal" name="selectMeal" class="form__inputs__meal">
+              <option selected="selected" disabled="disabled">
+                Please select meal type
+              </option>
+              <option value="breakfast">Breakfast</option>
+              <option value="lunch">Lunch</option>
+              <option value="dinner">Dinner</option>
+              <option value="snack">Snack</option>
+              <option value="teatime">Teatime</option>
+            </select>
+            <input type="text" class="form__inputs__product" placeholder="Please type in a product" />
+          </div>
+          <button class="randomRecipe__form__button">
+            Search
+            <img alt="searchImg" src="assets/images/aerrow.png" class="imgSearch" />
+          </button>
+        </form>
+        <div class="randomRecipe__result">
+          <div class="result__spinner"></div>
+          <div class="input_error-message"></div>
+          <div class="errorMessage"></div>
+          <div class="result-display"></div>
+        </div>
+      </div>
+    </section>
+    <section class="share-with-us" id="share-with-us">
+      <p class="share-with-us__title">Share with us</p>
+      <h2 class="share-with-us__heading-h2">We want to hear from you!</h2>
+      <form class="share-with-us__form">
+        <input class="share-with-us__input share-with-us__input_name" type="text" name="share-with-us__input_name"
+          placeholder="You First and Last Name">
+        <input class="share-with-us__input share-with-us__input_comment" type="text" name="share-with-us__input_comment"
+          placeholder="Leave your comment here">
+        <div class="share-with-us__error"></div>
+        <div class="share-with-us__gratitude"></div>
+        <button class="share-with-us__btn">Submit
+          <img alt="searchImg" src="assets/images/aerrow.png" class="imgSearch" />
+        </button>
+      </form>
+    </section>
+    <section class="form-news" id="form-news">
+      <h2 class="form-news__title">Subscribe to our News!</h2>
+      <div class="form-news__set">
+        <input class="form-news__name" type="text" id="nameUser" placeholder="Your First Name" />
+        <input class="form-news__email" type="email" id="email" placeholder="Your Email Address" />
+        <button class="form-news__button" type="submit" id="btnForm">
+          Subscribe
+          <img alt="searchImg" src="assets/images/aerrow.png" class="imgSearch" />
+        </button>
+      </div>
+      <div class="form-news__result"></div>
+      <div class="form-news__errorMessage"></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <img class="footer__logo" src="assets/images/smartdiettrack-low-resolution-logo-color-on-transparent-background.png"
+      alt="SmartDietTrack" />
+    <nav class="footer__nav">
+      <ul class="footer__nav-list">
+        <li class="footer__list-item"><a href="#about-us">About us</a></li>
+        <li class="footer__list-item"><a href="#nutrients">Nutrients</a></li>
+        <li class="footer__list-item">
+          <a href="#testimonial">Testimonial</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="#calculator"> Calorie Calculator</a>
+        </li>
+        <li class="footer__list-item"><a href="#recipes">Recipes</a></li>
+        <li class="footer__list-item">
+          <a href="#share-with-us">Share with us</a>
+        </li>
+        <li class="footer__list-item"><a href="#form-news">News</a></li>
+      </ul>
+      <ul class="footer__nav-list">
+        <li class="footer__list-item">POWERED BY:</li>
+        <li class="footer__list-item"><a href=" https://www.edamam.com/" target="_blank">Edamam.com</a></li>
+        <li class="footer__list-item"><a href="https://rapidapi.com" target="_blank">Rapidapi.com</a></li>
+        <li class="footer__list-item"><a href="https://type.fit/api/quotes" target="_blank">Quotes</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="index.js"></script>
+  <script src="itc-slider.js" defer></script>
+</body>
+</html>

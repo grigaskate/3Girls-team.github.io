@@ -32,11 +32,6 @@ It is a single page website with a modal box.
 9. Form for news subscription. For developing this form we used JS and free API [Quotes](https://type.fit/api/quotes). After submitting data, the user will see a motivational message.
 10. Footer with the links to the website sections. 
 
-## Thanks to all contributors! 
-[![Contributors](https://contrib.rocks/image?repo=3Girls-team/SmartDietTrack)](https://github.com/3Girls-team/SmartDietTrack/graphs/contributors)
-
-
-
 # SmartDietTrack
 Eat smart - it’s easy and tasty! :)
 

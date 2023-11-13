@@ -56,7 +56,11 @@ SmartDietTrack - это веб-сайт для получения информа
 * API:  [Fitness Calculator](https://rapidapi.com/hub/), [Edamam](https://www.edamam.com/), [Quotes](https://type.fit/api/quotes). Все API, применяемые в работе, используются исключительно в целях обучения и не используется в корпоративных целях.
 
 ### Проектная команда
-[![Contributors](https://contrib.rocks/image?repo=3Girls-team/SmartDietTrack)](https://github.com/3Girls-team/SmartDietTrack/graphs/contributors)
+- Анджелика Муллова (https://github.com/AnzhelikaMullova)
+- Марина Овчаренко (https://github.com/Mmaryna68)
+- Екатерина Сафиулова (https://github.com/Safiullova)
+- Анастасия Клиффорд (https://github.com/nastyaclifford)
+- Екатерина Григас (https://github.com/grigaskate)
 
 ### Структура сайта
 1. Header со ссылками на разделы сайта и именем пользователя. При создании бургер-меню был использован JS. 
